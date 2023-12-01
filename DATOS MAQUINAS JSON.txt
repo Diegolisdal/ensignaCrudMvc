@@ -1,0 +1,133 @@
+TRACTOR
+{
+"modelo_tractor": "5070E",
+"motor_tractor": "PowerTech™ John Deere 3029h Diesel",
+"potencia_tractor": "60 hp",
+"transmision_tractor": "Sincronizada 9x3",
+ "toma_tractor": "540 rpm",
+"sistema_tractor": "A engranajes - Centro abierto 69 L",
+"levante_tractor": "Cat II 1800 kgf a 610 mm",
+"stock_tractor":,
+"imagen_tractor": "https://www.deere.com.ar/assets/images/region-3/products/tractors/5e-series/5060e/5060e_r3g007067_small_edbbcb12af0093ff6af05766417ebddaca8ccbfe.jpg"
+}
+
+PLANTADORA
+{
+"modelo_plantadora": "1745",
+"nroDeLineas_plantadora": "18 líneas a 52.5 cm, 20 líneas a 45 cm y 24 líneas a 38 cm",
+"anchoDeLabor_plantadora": "9.5 m",
+"cajaCentral_plantadora": "2 Tolvas centrales de semilla (2450 L total).",
+"deslingue_plantadora": "si",
+"tasaVariable_plantadora": "2 secciones hidráulicas",
+"transporte_plantadora": "Plegado frontal (ancho 4 m)",
+"stock_plantadora":0,
+ "imagen_plantadora": "https://www.deere.com.ar/assets/images/region-3/products/drills/1745/1745_campo_1_small_177f82ca2d827e4a454a64c87bd31bd1d54d3423.jpg"
+}
+
+COSECHADORAS
+COSECHADORAS
+{
+"modelo_cosechadora": "Ss760",
+"motor_cosechadora": "Motor PowerTech™ PSS de 9L",
+"potencia_cosechadora": "320 hp",
+ "plataforma_cosechadora": "30/35 pies (Sinfín o FlexDraper)",
+"capacidadTolva_cosechadora": "10.600 L",
+"CapacidadDescarga_cosechadora": "116 L/seg",
+"PilotoAuto_cosechadora": "De Serie",
+"jdlink_cosechadora": "Suscripción gratuita por un año",
+"combine_cosechadora": "Opcional",
+"activeyield_cosechadora": "Opcional",
+"imagen_cosechadora": "https://www.deere.com.ar/assets/images/region-3/products/harvesters/s-series/s760/s760_1_estudio_small_ed42626937f0e5bc1f6d15967f86610ee6d6c45d.jpg",
+"stock_cosechadora":0 
+},
+{
+"modelo_cosechadora": "Ss770",
+"motor_cosechadora": "Motor PowerTech™ PSS de 9L",
+"potencia_cosechadora": "373 hp",
+"plataforma_cosechadora": "35/40 pies (Sinfín o FlexDraper)",
+"capacidadTolva_cosechadora": "11.600 L",
+"CapacidadDescarga_cosechadora": "135 L/sec",
+"PilotoAuto_cosechadora": "De Serie",
+"jdlink_cosechadora": "Suscripción gratuita por un año",
+"combine_cosechadora": "Opcional",
+"activeyield_cosechadora": "Opcional",            
+"imagen_cosechadora": "https://www.deere.com.ar/assets/images/region-3/products/harvesters/s-series/s770/s770_campo_2_small_6f6e48bea6e0836addbf036ecff2725c787d3209.jpg",
+"stock_cosechadora":0  
+}
+{
+"modelo_cosechadora": "Ss780",
+"motor_cosechadora": "Motor PowerTech™ PSS de 13.5 L",
+"potencia_cosechadora": "473 hp",
+"plataforma_cosechadora": "40/45 pies (FlexDraper)",
+"capacidadTolva_cosechadora": "14.100 L",
+"CapacidadDescarga_cosechadora": "135 L/seg",
+"PilotoAuto_cosechadora": "De Serie",
+"jdlink_cosechadora": "Suscripción gratuita por un año",
+"combine_cosechadora": "De Serie",
+"activeyield_cosechadora": "Opcional",
+"imagen_cosechadora": "https://www.deere.com.ar/assets/images/region-3/products/harvesters/s-series/s780/s780_campo_1_small_25b5e668c02be21d4fd46b8955cc102512d86d8d.jpg",
+"stock_cosechadora":0  
+},
+{
+"modelo_cosechadora": "Ss790",
+"motor_cosechadora": "Motor PowerTech™ PSS de 13.5 L",
+"potencia_cosechadora": "543 hp",
+"plataforma_cosechadora": "45 pies (FlexDraper)",
+"capacidadTolva_cosechadora": "14.100 L",
+"CapacidadDescarga_cosechadora": "135 L/seg",
+"PilotoAuto_cosechadora": "De Serie",
+"jdlink_cosechadora": "Suscripción gratuita por un año",
+"combine_cosechadora": "De Serie",
+"activeyield_cosechadora": "Opcional",
+"imagen_cosechadora": "https://www.deere.com.ar/assets/images/region-3/products/harvesters/s-series/s790/s790_campo_1_small_ff4e5a9fb7ce3312b6974e7cec902f771d8282e5.jpg",
+"stock_cosechadora":0  
+}
+
+
+*******PELADOS******************
+plantadoras
+{
+"id_plantadoras":0,
+"modelo_plantadora":"",
+"nroDeLineas_plantadora":"",
+"anchoDeLabor_plantadora":"",
+"cajaCentral_plantadora":"",
+"deslingue_plantadora":"",
+"tasaVariable_plantadora":"",
+"transporte_plantadora":"",
+"imagen_plantadora":"https://www.deere.com/assets/images/region-3/products/planting-equipment/1107/plantadeira_1107_estudio_small_3c6277c166f8307d9bd0b53515e3f529d60eef2a.jpg",
+"stock_plantadora":0,              
+
+}
+tractores
+{
+"id_tractores":0,                        
+"modelo_tractor":"",
+"motor_tractor":"",
+"potencia_tractor":"",
+"transmision_tractor":"",
+"toma_tractor":"",
+"sistema_tractor":"",
+"levante_tractor":"",
+"imagen_tractor":"",
+"stock_tractor":0            
+ } 
+
+
+
+cosechadoras
+{             
+"id_cosechadoras":0,                     
+"modelo_cosechadora":"",
+"motor_cosechadora":"",
+"potencia_cosechadora":"",
+"plataforma_cosechadora":"",
+"capacidadTolva_cosechadora":"",
+"CapacidadDescarga_cosechadora":"",
+"PilotoAuto_cosechadora":"",
+"jdlink_cosechadora":"",
+"combine_cosechadora":"",
+"activeyield_cosechadora":"",
+"imagen_cosechadora":"",
+"stock_cosechadora":0            
+} 

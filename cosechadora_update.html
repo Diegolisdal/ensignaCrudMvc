@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENSIGNA</title>
+    <link rel="stylesheet" href="./css/nayfooter.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/3a6a7a1eda.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div class="contenedor">
+        <header class="header">
+
+        </header>
+
+        <main class="main">
+            <form style="background-color: rgba(21, 99, 21, 0.9);margin:10px auto ;border-radius: 20px; width: 500px; padding: 20px;">
+                <h2>Editar Cosechadora </h2>
+                <div class="mb-3">
+                    <label for="id">Id</label>
+                    <input type="number" name="id" id="id" disabled v-model="id_cosechadoras" >
+                  </div>            
+                  <div class="mb-3">
+                    <label for="modelo">Modelo</label>
+                    <input type="text" name="modelo" id="modelo" v-model="modelo_cosechadora">
+                </div>
+                <div class="mb-3">
+                    <label for="motor">Motor</label>
+                    <input type="text" name="motor" id="motor" v-model="motor_cosechadora">
+                </div>
+                <div class="mb-3">
+                    <label for="potencia">Potencia</label>
+                    <input type="text" name="potencia" id="potencia" v-model="potencia_cosechadora">
+                </div>
+                <div class="mb-3">
+                    <label for="plataforma">Plataforma</label>
+                    <input type="text" name="plataforma" id="plataforma" v-model="plataforma_cosechadora">
+                </div>
+                <div class="mb-3">
+                    <label for="capacidadTolva_cosechadora">Capacidad de tolva</label>
+                    <input type="text" name="capacidadTolva_cosechadora" id="capacidadTolva_cosechadora" v-model="capacidadTolva_cosechadora">
+                </div>
+                <div class="mb-3">
+                    <label for="CapacidadDescarga_cosechadora">Capacidad de descarga</label>
+                    <input type="text" name="CapacidadDescarga_cosechadora" id="CapacidadDescarga_cosechadora" v-model="CapacidadDescarga_cosechadora">
+                </div>
+                <div class="mb-3">
+                    <label for="pilotoAuto">Piloto Automatico</label>
+                    <input type="text" name="pilotoAuto" id="pilotoAuto" v-model="PilotoAuto_cosechadora">
+                </div>
+                <div class="mb-3">
+                    <label for="jdlink">jdlink</label>
+                    <input type="text" name="jdlink" id="jdlink" v-model="jdlink_cosechadora">
+                </div>
+                <div class="mb-3">
+                    <label for="combine">Combine</label>
+                    <input type="text" name="combine" id="combine" v-model="combine_cosechadora">
+                </div>
+                <div class="mb-3">
+                    <label for="activeyield">Activeyield</label>
+                    <input type="text" name="activeyield" id="activeyield" v-model="activeyield_cosechadora">
+                </div>
+                <div class="mb-3">
+                    <label for="stock">stock</label>
+                    <input type="text" name="stock" id="stock" v-model="stock_cosechadora">
+                </div>
+                <div class="mb-3">
+                    <label for="imagen">Imagen</label>
+                    <input type="text" name="imagen" id="imagen" v-model="imagen_cosechadora">
+                    <img width="100" :src="imagen" alt="modelo_cosechadora">
+           <button type="button" class="btn btn-success" v-on:click="modificar_plantadora()">Grabar</button>
+     
+            </div>
+        </main>
+
+
+        </main>
+
+        <footer class="footer">
+
+
+        </footer>
+
+    </div>
+    
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./js/productos_editar.js"></script>
+</body>
+
+</html>

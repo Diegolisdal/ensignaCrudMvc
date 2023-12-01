@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENSIGNA</title>
+    <link rel="stylesheet" href="./css/nayfooter.css">
+    <link rel="stylesheet" href="css/productos.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/3a6a7a1eda.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="contenedor">
+        <header class="header">
+
+        </header>
+        <main class="main" id="app">
+
+            <h2>Cosechadoras</h2>
+            <p>Las cosechadoras de la Serie S están diseñadas para entregar una calidad absoluta al momento de la
+                cosecha. La tecnología de rotor reduce en un 20% la fuerza requerida para mover el material a través
+                de la cosechadora. Para el accionamiento del rotor es necesario menos potencia, lo que posibilita
+                aumentar la velocidad de la cosecha.</p>                
+            <div class="tarjeta" v-for="elemento in cosechadoras">
+                <div class="contenido">
+                    <h3>Caracteristicas principales</h3>
+                    <p>Modelo: {{elemento.modelo_cosechadora}}</p>
+                    <p>Motor: {{elemento.motor_cosechadora}}</p>
+                    <p>Potencia: {{elemento.potencia_cosechadora}}</p>
+                    <p>Plataforma: {{elemento.plataforma_cosechadora}}</p>
+                    <p>Capacidad de tolva: {{elemento.capacidadTolva_cosechadora}}</p>
+                    <p>Capacidad de descarga: {{elemento.CapacidadDescarga_cosechadora}}</p>
+                    <p>Piloto automático: {{elemento.PilotoAuto_cosechadora}}</p>
+                    <p>JDLINK: {{elemento.jdlink_cosechadora}}</p>
+                    <p>COMBINE ADVISOR: {{elemento.combine_cosechadora}}</p>
+                    <p>ACTIVEYIELD: {{elemento.activeyield_cosechadora}}</p>
+                    
+                </div>
+                <div class="imagenes">
+                    <img v-bind:src="elemento.imagen_cosechadora" :alt="elemento.modelo_cosechadora">
+
+                </div>
+
+                <div id="btn">
+                    <a class="bts" href="./contacto.html" target="_blank">Consultar</a>
+
+
+                </div>
+
+
+            </div>
+            <h2>Plantadoras</h2>                      
+            <p>Consciente de que la siembra es una de las etapas más importantes de todo el ciclo productivo, la
+                solución de siembra que ENSIGNA ofrece satisface todas las necesidades de aquellos que deben llevar
+                a cabo la siembra con agilidad, precisión y economía, lo que garantiza el éxito de la producción a
+                lo largo todo el ciclo.</p>              
+
+            <div class="tarjeta" v-for="elemento in plantadoras">
+                
+                <div class="contenido">
+                    <h3>Caracteristicas principales</h3>
+                    <p>Modelo: {{elemento.modelo_plantadora}}</p>
+                    <p>Nro. de líneas / espaciamiento: {{elemento.nroDeLineas_plantadora}}</p>
+                    <p>Ancho de labor: {{elemento.anchoDeLabor_plantadora}}</p>
+                    <p>Caja central de semillas: {{elemento.cajaCentral_plantadora}}</p>
+                    <p>Deslingue de hilera automático: {{elemento.deslingue_plantadora}}</p>
+                    <p>Tasa variable: {{elemento.tasaVariable_plantadora}}</p>
+                    <p>Transporte: {{elemento.transporte_plantadora}}</p>
+                </div>
+                <div class="imagenes">
+                    <img v-bind:src="elemento.imagen_plantadora" :alt="elemento.modelo_plantadora">
+                </div>
+
+                <div id="btn">
+                    <a class="bts" href="./contacto.html" target="_blank">Consultar</a>
+                    
+
+                </div>
+
+
+            </div>
+            <h2>Tractores</h2>
+            <p>Bienvenido a la sección de tractores de ENSIGNA, donde la innovación se une a la potencia para
+                ofrecerte un rendimiento excepcional en tus operaciones agrícolas. Nuestros tractores están
+                diseñados para satisfacer las demandas más exigentes de la agricultura moderna, proporcionando la
+                potencia y versatilidad que necesitas en cada campo.</p>                
+            <div class="tarjeta" v-for="elemento in tractores">
+                <div class="contenido">
+                    <h3>Caracteristicas principales</h3>
+                    <p>Modelo: {{elemento.modelo_tractor}}</p>
+                    <p>Motor: {{elemento.motor_tractor}}</p>
+                    <p>Potencia: {{elemento.potencia_tractor}}</p>
+                    <p>Transmisión: {{elemento.transmision_tractor}}</p>
+                    <p>Toma de potencia: {{elemento.toma_tractor}}</p>
+                    <p>Sistema hidráulico: {{elemento.sistema_tractor}}</p>
+                    <p>Levante 3 puntos: {{elemento.levante_tractor}}</p>
+                </div>
+                <div class="imagenes">
+                    <img v-bind:src="elemento.imagen_tractor" :alt="elemento.modelo_tractor">
+                </div>
+                <div id="btn">
+                    <a class="bts" href="./contacto.html" target="_blank">Consultar</a>
+                    
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+        </footer>
+
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./js/productos.js"></script>
+</body>
+
+</html>
